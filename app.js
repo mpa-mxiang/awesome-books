@@ -26,7 +26,7 @@ if (savedData) {
   typedName.value = savedData.title;
 }
 // error is here
-book.addEventListener('submit', () => {
+books.addEventListener('submit', () => {
   localStorage.clear();
 });
 // Function to display all books saved in the collection
