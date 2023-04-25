@@ -27,7 +27,7 @@ if (savedData) {
   authorInput.value = savedData.author;
   typedTitle.value = savedData.title;
 }
-// error is here
+
 books.addEventListener('submit', () => {
   localStorage.clear();
 });
