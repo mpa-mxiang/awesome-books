@@ -1,3 +1,4 @@
+
 // Load saved book collection from local storage
 let bookCollection = localStorage.getItem("bookCollection");
 if (bookCollection) {
@@ -11,22 +12,17 @@ const authorInput = document.querySelector('#author');
 const books = document.getElementById('book-form');
 const bookData = JSON.parse(localStorage.getItem('bookData')) || {};
 const savedData = JSON.parse(localStorage.getItem('bookData'));
-console.log(typedTitle.value)
-console.log(savedData)
+
 if (bookData.title) {
   typedTitle.value = bookData.title;
 }
 if (bookData.author) {
   authorInput.value = bookData.author;
 }
-console.log(bookData)
-console.log(savedData)
 books.addEventListener('input', (event) => {
   bookData[event.target.name] = event.target.value;
-  localStorage.setItem('formData', JSON.stringify(bookData));
+  localStorage.setItem('bookData', JSON.stringify(bookData));
 });
-console.log(bookData)
-console.log(savedData)
 if (savedData) {
   authorInput.value = savedData.author;
   typedTitle.value = savedData.title;
@@ -35,6 +31,7 @@ if (savedData) {
 books.addEventListener('submit', () => {
   localStorage.clear();
 });
+
 // Function to display all books saved in the collection
 function displayBooks() {
   const bookList = document.getElementById("bookList");
@@ -52,6 +49,8 @@ function addBook() {
   const author = document.getElementById("author").value;
   const book = { title, author };
   bookCollection.push(book);
+  localStorage.setItem("bookCollection", JSON.stringify(bookCollection));
+  displayBooks();
   document.getElementById("title").value = "";
   document.getElementById("author").value = "";
 }
@@ -59,6 +58,7 @@ function addBook() {
 // Function to remove a book from the collection
 function removeBook(title) {
   bookCollection = bookCollection.filter((book) => book.title !== title);
+  localStorage.setItem("bookCollection", JSON.stringify(bookCollection));
   displayBooks();
 }
 
