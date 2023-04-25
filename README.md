@@ -1,4 +1,8 @@
-<a name="Personal-Profolio"></a>
+<a name="readme-top"></a>
+
+<div align="center">
+  <h3><b>Awesome Books</b></h3>
+</div>
 
 # 📗 Table of Contents
 
@@ -6,7 +10,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Future Features](#future-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -20,132 +23,115 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
-# 📖 **Awesome-books** <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-This is a project that build with the checking tool linter, HTML/CSS and javascript to have the header bar and the intro section as the part of the profolio in the mobile section.
+# 📖 Awesome Books<a name="about-project"></a>
 
+**Awesome Books** In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. we also use dynamic for modify the DOM and add basic events
 
-## 🛠 Built With <a name="built-with">VS Code</a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-GitHub/Git, VS Code, HTML/CSS, Linter, Javascript
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/default.asp">Html</a></li>
+    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
+    <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Add & remove books
-- Local storage
-
-
-All of above can be viewed in mobile and desktop responsively.
+- **[Add Book]**
+- **[Display Book]**
+- **[Remove Book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Future Features <a name="future-features"></a>
+**Open the live-demo of the project**
 
-- Classes & SPA
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Live Demo <a name="live-demo"></a>
-
-- Coming Soon!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+## Getting Started
+To get a local copy of this exercice, Please follow these simple example steps.
 
-To get a local copy up and running, follow these steps below.
+1. Clone this repository or download the Zip folder:
 
-### Prerequisites
+**``https://github.com/mdg0410/awesome-books.git``**
 
-In order to run this project you need:
+2. Navigate to the location of the folder in your machine:
 
-Clone the repository using git, and open it with VS code.
+**`` C:\Users\PATH\src\awesome-books>``**
 
-So make sure you have VS code installed beforehead, you call install VS code through https://code.visualstudio.com/download.
+3. Press Enter to navigate to your local clone.
+4. Open terminal and run this command npm install
+5. after finishing step 5, run this command npm start to run the project
+6. for testing components, you can run: npm run test.
 
-### Setup
+Now you can go and play with it as you wish :smile:
 
-Clone this repository to your desired folder in your laptop:
+## 👥 Authors <a name="authors"></a>
 
-  cd "your-folder-name"
-  git clone git@github.com:https://github.com/mpa-mxiang/Hello-Microverse.git
+👤 **mpa-mxiang**
 
+- GitHub: [@mpa-mxiang](https://github.com/mpa-mxiang/)
+- Twitter: [@jiachunlilyxiang](https://twitter.com/jiachunlilyxiang)
+- LinkedIn: [Jiachun (Lily) Xiang](https://www.linkedin.com/in/jiachunlilyxiang/)
 
-### Usage
+👤 **mdg0410**
 
-To open the project, you can:
-- Use your prefered explorer and open the index.html file. 
-- You can right click the index.html file to open in the live server with the localhost.
-- Check live demo: <a href="#live-demo">live demo</a>
-
-
-
-### Deployment
-
-You can deploy this project using VS Code terminal with using related command.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 👥 Author <a name="author"></a>
-
-
-👤 ** Jiachun Xiang **
-
-- GitHub: https://github.com/mpa-mxiang
-- LinkedIn: https://www.linkedin.com/in/jiachun-lily-xiang-1b197213a/
+- GitHub: [@mdg0410](https://github.com/mdg0410/)
+- Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
+- LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome! 
-
-If you like to contribute, report issues, or request feature(s), please contact me through one of the above media link:)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project please star this project to show your support, thank you for your support!
+- [ ] **[Add navigation bar]**
+- [ ] **[Add contact page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Show your support
+Give a ⭐️ if you like this project!
 
+## 🤝 Contributing
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+Contributions, issues, and feature requests are welcome!
 
-I would like to thank Microverse and all of people helped me through the project to make this project success.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/mpa-mxiang/awesome-books/issues)
 
+## Acknowledgments
 
-## ❓ FAQ <a name="faq"></a>
+This project has been created in reference to the template created by
 
-- Is it difficult?
-
-  - It is common difficult for the setup, but do not give up. Once you get it, you would feel great!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-- Why linter?
-
-  - It is pretty helpful for your project. For this one, stylelint helps me to style the style.css file better.</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📝 License
+This project is [MIT](https://github.com/mpa-mxiang/awesome-books/blob/main/LICENSE) licensed.
