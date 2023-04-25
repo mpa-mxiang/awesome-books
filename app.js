@@ -7,8 +7,7 @@ class Book {
   
   class BookCollection {
     constructor() {
-      let bookCollection = localStorage.getItem("bookCollection");
-      this.bookList = bookCollection ? JSON.parse(bookCollection) : [];
+      this.bookList = JSON.parse(localStorage.getItem("bookCollection")) || [];
     }
   
     // Function to display all books saved in the collection
