@@ -15,8 +15,9 @@ class Book {
       const bookListElement = document.getElementById("bookList");
       bookListElement.innerHTML = "";
       this.bookList.forEach((book) => {
-        const bookDiv = document.createElement("div");
-        bookDiv.innerHTML = `<h2>${book.title}</h2><p>${book.author}</p><button class="removeButton" data-title="${book.title}">Remove</button>`;
+        const bookDiv = document.createElement("li");
+        bookDiv.classList.add('viewBook');
+        bookDiv.innerHTML = `<span>${book.title} by ${book.author}</span><button class="removeButton" data-title="${book.title}">Remove</button>`;
         bookListElement.appendChild(bookDiv);
       });
     }

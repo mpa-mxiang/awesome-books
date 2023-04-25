@@ -28,11 +28,10 @@
   }  
 
   .viewBook {
-    display: grid;
-    grid-template-columns: 20% auto 10%;
-    padding: 0.1vh 0.5vh;
+    display: flex;
+    padding: 0.3vh 0.5vh;
     align-items: center;
-    justify-content: first baseline;
+    justify-content: space-between;
   }
 
   .line {
@@ -52,6 +51,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 2vh;
+  width: 30%;
 }
 
 form input {
@@ -74,3 +74,8 @@ form input {
   padding: 0.5vh 2vh 0.5vh 2vh;
 }
 
+.removeButton{
+  display: flex;
+  justify-content: flex-end;
+  width: 8vh;
+}
