@@ -3,7 +3,7 @@ const authorInput = document.querySelector('#author');
 const books = document.getElementById('form');
 const bookData = JSON.parse(localStorage.getItem('bookData')) || {};
 const savedData = JSON.parse(localStorage.getItem('bookData'));
-
+console.log()
 if (bookData.title) {
   typedTitle.value = bookData.title;
 }
