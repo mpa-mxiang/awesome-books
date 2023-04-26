@@ -1,9 +1,10 @@
 const typedTitle = document.querySelector('#title');
 const authorInput = document.querySelector('#author');
-const books = document.getElementById('form');
+const books = document.getElementById('book-form');
 const bookData = JSON.parse(localStorage.getItem('bookData')) || {};
 const savedData = JSON.parse(localStorage.getItem('bookData'));
-console.log()
+console.log(bookData)
+console.log(savedData)
 if (bookData.title) {
   typedTitle.value = bookData.title;
 }
