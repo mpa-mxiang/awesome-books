@@ -37,7 +37,7 @@ class BookCollection {
 const myBookCollection = new BookCollection();
 
 // Add event listener for form submission
-const form = document.querySelector('form');
+const form = document.querySelector('#book-form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const title = document.getElementById('title').value;

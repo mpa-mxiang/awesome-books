@@ -3,23 +3,22 @@ const authorInput = document.querySelector('#author');
 const books = document.getElementById('book-form');
 const bookData = JSON.parse(localStorage.getItem('bookData')) || {};
 const savedData = JSON.parse(localStorage.getItem('bookData'));
-console.log(bookData)
-console.log(savedData)
-if (bookData.title) {
-  typedTitle.value = bookData.title;
-}
-if (bookData.author) {
-  authorInput.value = bookData.author;
-}
-books.addEventListener('input', (event) => {
-  bookData[event.target.name] = event.target.value;
-  localStorage.setItem('bookData', JSON.stringify(bookData));
-});
+
 if (savedData) {
   authorInput.value = savedData.author;
   typedTitle.value = savedData.title;
 }
+books.addEventListener('input', (event) => {
+  if (event.target.id === typedTitle.id) {
+    bookData.title = event.target.value;
+  } else if (event.target.id === authorInput.id) {
+    bookData.author = event.target.value;
+  }
+  localStorage.setItem('bookData', JSON.stringify(bookData));
+});
 
 books.addEventListener('submit', () => {
-  localStorage.clear();
+  bookData.title = '';
+  bookData.author = '';
+  localStorage.setItem('bookData', JSON.stringify(bookData));
 });
