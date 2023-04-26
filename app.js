@@ -59,23 +59,3 @@ function removeBook(title) {
   bookCollection = bookCollection.filter((book) => book.title !== title);
   localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
   displayBooks();
-}
-
-// Add event listener for form submission
-const form = document.querySelector('form');
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  addBook();
-});
-
-// Add event listener for remove button clicks (using event delegation)
-const bookList = document.getElementById('bookList');
-bookList.addEventListener('click', (e) => {
-  if (e.target.classList.contains('removeButton')) {
-    const { title } = e.target.dataset;
-    removeBook(title);
-  }
-});
-
-// Display the initial book collection
-displayBooks();
