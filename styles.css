@@ -38,13 +38,51 @@ body {
   font-family: 'Shantell Sans', cursive;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 40px;
+  padding: 1px 12px;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+hr {
+  width: 12px;
+  transform: rotate(90deg);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.containerDate {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 #bookList {
   display: flex;
   flex-direction: column;
   justify-self: center;
   list-style: none;
   padding: 0;
-  width: 50%;
+  width: 100%;
   border: black solid 3px;
 }
 
@@ -72,11 +110,17 @@ button {
   font-family: 'Shantell Sans', cursive;
 }
 
+.newBook{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #form {
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  width: 30%;
+  width: 80%;
 }
 
 form input {
@@ -103,4 +147,16 @@ form input {
   display: flex;
   justify-content: flex-end;
   width: 4rem;
+}
+
+footer {
+  display: flex;
+  width: 90%;
+  border: black solid 3px;
+  margin-top: 10vh;
+  padding: 1vh;
+}
+
+.hidden {
+  display: none;
 }
