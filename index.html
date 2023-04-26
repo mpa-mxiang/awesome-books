@@ -7,14 +7,37 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Awesome books</h1>
-    <div id="bookList"></div>
+
+    <div class="header">
+      <div><p>Awesome Books</p></div>
+      <nav>
+        <ul class="nav">
+          <li><a href="#" id="link-list" data-section="listBook">List</a></li>
+          <li><hr></li>
+          <li><a href="#" id="link-add" data-section="newBook">Add new</a></li>
+          <li><hr></li>
+          <li><a href="#" id="link-contact" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div class="containerDate"><p id="today"></p></div>
+
+    <section class="listBook ">
+    <h1>All Awesome Books</h1>
+
+    <ul id="bookList"></ul>
+    </section>
+
+    <section class="newBook hidden">
     <form id="book-form">
+      <h2>Add a new book</h2>
       <label for="title">Title:</label>
-      <input type="text" id="title" placeholder="Title" name="title" required />
+      <input type="text" placeholder="Title" id="title" required />
       <label for="author">Author:</label>
-      <input type="text" id="author" placeholder="Author" name="author" required />
-      <button type="submit">Add</button>
+      <input type="text" placeholder="Author" id="author" required />
+      <div class="addBtn">
+        <button type="submit" id="addBook">Add</button>
+      </div>
     </form>
     </section>
 
@@ -31,8 +54,8 @@
       Copyright ...
     </footer>
 
-    <script src="app.js"></script>
-    <script src="storage.js"></script>
-    <script src="nav.js"></script>
+    <script src="app.js" defer></script>
+    <script src="nav.js" defer></script>
+    <script src="storage.js" defer></script>
   </body>
 </html>
