@@ -110,7 +110,7 @@ button {
   font-family: 'Shantell Sans', cursive;
 }
 
-.newBook{
+.newBook {
   display: flex;
   flex-direction: column;
   align-items: center;
