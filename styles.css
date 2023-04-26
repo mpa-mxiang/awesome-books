@@ -48,7 +48,7 @@ body {
   border: black solid 3px;
 }
 
-#bookList li:nth-child(odd) {
+#bookList div:nth-child(odd) {
   background-color: #e4e4e4;
 }
 

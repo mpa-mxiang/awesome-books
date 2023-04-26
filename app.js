@@ -8,7 +8,7 @@ class BookCollection {
     const bookListElement = document.getElementById('bookList');
     bookListElement.innerHTML = '';
     this.bookList.forEach((book) => {
-      const bookDiv = document.createElement('li');
+      const bookDiv = document.createElement('div');
       bookDiv.classList.add('viewBook');
       bookDiv.innerHTML = `<span>${book.title} by ${book.author}</span><button class="removeButton" data-title="${book.title}">Remove</button>`;
       bookListElement.appendChild(bookDiv);
