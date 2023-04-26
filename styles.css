@@ -32,8 +32,8 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 10vh 0;
-  gap: 2vh;
+  padding: 10vw 0;
+  gap: 2vw;
   align-items: center;
   font-family: 'Shantell Sans', cursive;
 }
@@ -46,13 +46,15 @@ body {
   padding: 1px 12px;
   align-items: center;
   border: 3px solid black;
+  min-width: 370px;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: calc(25px + 5vw);
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -92,15 +94,15 @@ a:hover {
 
 .viewBook {
   display: flex;
-  padding: 0.3vh 0.5vh;
+  padding: 0.3vw 0.5vw;
   align-items: center;
   justify-content: space-between;
 }
 
 .line {
-  width: 30vh;
+  width: 30vw;
   height: 2px;
-  margin-top: 3vh;
+  margin-top: 3vw;
   background-color: black;
 }
 
@@ -119,15 +121,15 @@ button {
 #form {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 2vw;
   width: 80%;
 }
 
 form input {
   border: black solid 3px;
-  height: 3vh;
+  height: 3vw;
   width: 100%;
-  padding-left: 1vh;
+  padding-left: 1vw;
   font-weight: 900;
   font-family: 'Shantell Sans', cursive;
 }
@@ -140,7 +142,8 @@ form input {
 }
 
 #addBook {
-  padding: 0.5vh 2vh 0.5vh 2vh;
+  padding: 0.5vw 2vw 0.5vw 2vw;
+  margin-top: 0.25rem;
 }
 
 .removeButton {
@@ -153,8 +156,8 @@ footer {
   display: flex;
   width: 90%;
   border: black solid 3px;
-  margin-top: 10vh;
-  padding: 1vh;
+  margin-top: 10vw;
+  padding: 1vw;
 }
 
 .hidden {
