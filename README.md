@@ -103,7 +103,6 @@ Now you can go and play with it as you wish :smile:
 👤 **mpa-mxiang**
 
 - GitHub: [@mpa-mxiang](https://github.com/mpa-mxiang/)
-- Twitter: [@jiachunlilyxiang](https://twitter.com/jiachunlilyxiang)
 - LinkedIn: [Jiachun (Lily) Xiang](https://www.linkedin.com/in/jiachunlilyxiang/)
 
 👤 **mdg0410**
@@ -118,8 +117,7 @@ Now you can go and play with it as you wish :smile:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add navigation bar]**
-- [ ] **[Add contact page]**
+- [ ] **[ES6]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +132,8 @@ Feel free to check the [issues page](https://github.com/mpa-mxiang/awesome-books
 
 ## Acknowledgments
 
-This project has been created in reference to the template created by
+We would like to thank Microverse and all of people helped me through the project to make this project success.
+
 
 ## 📝 License
 This project is [MIT](https://github.com/mpa-mxiang/awesome-books/blob/main/LICENSE) licensed.
